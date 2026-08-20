@@ -1,0 +1,172 @@
+[
+  {
+    "id": "tavily-search-pro",
+    "name": "Tavily Search Pro",
+    "description": "AI 驱动的全能搜索与研究平台，支持通用搜索、新闻、财经、网页提取、整站爬取、站点地图与深度研究报告",
+    "source": "cocoloop",
+    "keywords": ["搜索", "search", "研究", "research", "爬取", "网页", "新闻", "报告", "tavily"],
+    "requiresNetwork": true,
+    "requiresApiKey": true,
+    "scriptLang": "python"
+  },
+  {
+    "id": "capability-evolver",
+    "name": "Capability Evolver",
+    "description": "AI Agent 自主进化引擎，通过反思与迭代持续提升 Agent 能力",
+    "source": "cocoloop",
+    "keywords": ["进化", "evolve", "反思", "自我提升", "能力增强"],
+    "requiresNetwork": true,
+    "requiresApiKey": true,
+    "scriptLang": "python"
+  },
+  {
+    "id": "agent-overflow",
+    "name": "Agent Overflow",
+    "description": "AI Agent 的集体记忆与协作网络，支持多 Agent 记忆共享与协作",
+    "source": "cocoloop",
+    "keywords": ["协作", "记忆", "collective", "memory", "多agent"],
+    "requiresNetwork": true,
+    "requiresApiKey": true,
+    "scriptLang": "python"
+  },
+  {
+    "id": "summarize",
+    "name": "Summarize",
+    "description": "多模态智能内容摘要助手，对文本、网页、文档生成简洁准确的摘要",
+    "source": "cocoloop",
+    "keywords": ["摘要", "总结", "summarize", "归纳", "提炼"],
+    "requiresNetwork": false,
+    "requiresApiKey": false,
+    "scriptLang": null
+  },
+  {
+    "id": "docker-sandbox",
+    "name": "Docker Sandbox",
+    "description": "VM 级隔离的安全代码执行环境，支持在隔离容器中运行代码",
+    "source": "cocoloop",
+    "keywords": ["docker", "沙箱", "sandbox", "代码执行", "隔离"],
+    "requiresNetwork": true,
+    "requiresApiKey": false,
+    "scriptLang": "python"
+  },
+  {
+    "id": "agent-browser",
+    "name": "Agent Browser",
+    "description": "AI 原生浏览器自动化引擎，支持网页浏览、表单填写、数据抓取",
+    "source": "cocoloop",
+    "keywords": ["浏览器", "browser", "网页", "自动化", "爬虫"],
+    "requiresNetwork": true,
+    "requiresApiKey": false,
+    "scriptLang": "python"
+  },
+  {
+    "id": "self-improvement",
+    "name": "Self Improvement",
+    "description": "AI 持续进化与知识沉淀系统，通过实践积累知识库并优化自身行为",
+    "source": "cocoloop",
+    "keywords": ["自我改进", "进化", "知识沉淀", "learning"],
+    "requiresNetwork": true,
+    "requiresApiKey": true,
+    "scriptLang": "python"
+  },
+  {
+    "id": "humanize-ai-text",
+    "name": "Humanize AI Text",
+    "description": "AI 文本特征检测与优化工具，让 AI 生成文本更自然、更像人类写作",
+    "source": "cocoloop",
+    "keywords": ["人味", "拟人", "humanize", "改写", "自然语言"],
+    "requiresNetwork": false,
+    "requiresApiKey": false,
+    "scriptLang": null
+  },
+  {
+    "id": "postgres-job-queue",
+    "name": "Postgres Job Queue",
+    "description": "零依赖 PostgreSQL 任务队列引擎，实现可靠的任务调度与排队",
+    "source": "cocoloop",
+    "keywords": ["postgres", "队列", "job", "调度", "任务"],
+    "requiresNetwork": true,
+    "requiresApiKey": false,
+    "scriptLang": "sql"
+  },
+  {
+    "id": "wacli",
+    "name": "WaCli",
+    "description": "WhatsApp 命令行消息管理专家，支持消息发送、接收与管理",
+    "source": "cocoloop",
+    "keywords": ["whatsapp", "消息", "聊天", "messaging"],
+    "requiresNetwork": true,
+    "requiresApiKey": true,
+    "scriptLang": "python"
+  },
+  {
+    "id": "skill-creator",
+    "name": "Skill Creator",
+    "description": "帮助 AI Agent 创建、编写、测试新 skill 的元技能，理解 SKILL.md 规范",
+    "source": "modelscope",
+    "keywords": ["创建skill", "skill", "写作", "元技能"],
+    "requiresNetwork": false,
+    "requiresApiKey": false,
+    "scriptLang": null
+  },
+  {
+    "id": "code-task-manager",
+    "name": "Code Task Manager",
+    "description": "编程任务管理器，帮助拆分、跟踪、完成软件开发任务",
+    "source": "modelscope",
+    "keywords": ["编程", "任务管理", "code", "开发", "任务"],
+    "requiresNetwork": false,
+    "requiresApiKey": false,
+    "scriptLang": null
+  },
+  {
+    "id": "hyperskill-search",
+    "name": "Hyperskill Search",
+    "description": "基于 FastMCP 集成 Hyperskill，讲解编程主题并搜索编程学习资源",
+    "source": "modelscope",
+    "keywords": ["编程学习", "教程", "hyperskill", "学习资源"],
+    "requiresNetwork": true,
+    "requiresApiKey": false,
+    "scriptLang": "python"
+  },
+  {
+    "id": "glm-coding",
+    "name": "GLM Coding",
+    "description": "智谱 GLM 编程技能包，覆盖代码生成、审查、调试等开发场景",
+    "source": "modelscope",
+    "keywords": ["代码", "coding", "glm", "编程", "调试"],
+    "requiresNetwork": true,
+    "requiresApiKey": true,
+    "scriptLang": "python"
+  },
+  {
+    "id": "minimax-office",
+    "name": "MiniMax Office",
+    "description": "MiniMax 办公技能包，覆盖文档处理、表格生成、PPT 制作等办公场景",
+    "source": "modelscope",
+    "keywords": ["办公", "office", "文档", "表格", "ppt"],
+    "requiresNetwork": true,
+    "requiresApiKey": true,
+    "scriptLang": "python"
+  },
+  {
+    "id": "amap-open-platform",
+    "name": "高德开放平台",
+    "description": "高德地图开放平台技能，支持地理编码、路线规划、地点搜索",
+    "source": "modelscope",
+    "keywords": ["地图", "高德", "amap", "路线", "导航", "地点"],
+    "requiresNetwork": true,
+    "requiresApiKey": true,
+    "scriptLang": "python"
+  },
+  {
+    "id": "baidu-pan",
+    "name": "百度网盘官方 Skill",
+    "description": "百度网盘官方技能，支持文件上传、下载、分享链接管理",
+    "source": "modelscope",
+    "keywords": ["网盘", "百度", "baidu", "文件", "上传", "下载"],
+    "requiresNetwork": true,
+    "requiresApiKey": true,
+    "scriptLang": "python"
+  }
+]
