@@ -20,6 +20,7 @@ import androidx.compose.material3.Button
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.CircularProgressIndicator
+import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
@@ -51,6 +52,7 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import com.marvis.agentskills.engine.Skill
 import com.marvis.agentskills.engine.SkillEngine
 
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun AgentSkillsApp(skillEngine: SkillEngine) {
     MaterialTheme {
@@ -240,7 +242,7 @@ private fun MessageBubble(msg: ChatMessageUi) {
     ) {
         Column(
             Modifier
-                .width(if (isUser) 0.8f * 320.dp else 0.9f * 320.dp)
+                .fillMaxWidth(if (isUser) 0.8f else 0.9f)
                 .background(
                     color = if (isUser) Color(0xFF1F6FEB) else Color(0xFF21262D),
                     shape = RoundedCornerShape(

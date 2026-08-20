@@ -30,7 +30,7 @@ class LLMClient(
 
     data class ChatMessage(val role: String, val content: String)
 
-    fun interface StreamCallback {
+    interface StreamCallback {
         fun onDelta(delta: String)
         fun onDone(reason: String)
         fun onError(message: String)
